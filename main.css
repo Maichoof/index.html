@@ -1,0 +1,114 @@
+html{
+	background-color: #354B72;
+}
+	
+body {
+	font-family: 'Century Gothic';
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	color: #ffffff;
+	background-image:url("cloud.jpg");
+	background-color: #354B72;
+	background-position: top center;
+	background-size: cover;
+	font-size:108%;
+	max-width:100%;
+	text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+/* text shadow is the text outline, the value is spammed to a certain degree of darkness to achive that perfect shade */
+}
+
+h1 {
+	font-size: 56px;
+}
+
+h2 {
+	font-size: 32px; 
+}
+
+
+.hero {
+	background-image: url('url');
+	background-position: center top;
+	background-size: cover;
+	padding: 250px 0;
+	margin: 30px;
+	text-shadow: 0 2px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica';
+}
+
+
+p {
+	font-size: 1em;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.share {
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: #a4b8d8;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  padding: 14px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: #bda0e5;
+  border: 1px solid white;
+  color: white;
+}
+
+#development {
+	color: white;
+	text-decoration: overline;
+}
+
+#languages {
+
+}
+
+#elements {
+
+}
+
+#concepts {
+
+}

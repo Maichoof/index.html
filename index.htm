@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+<div id="development">
 <h1>Web Development</h1>
 
 <!--
@@ -13,12 +14,24 @@
 &lt is alternate for the < less than symbol 
 #HINT- LT STANDS FOR LESS THAN  AND GT FOR GREATER THAN
 -->
-
+	<br>
+	</div>
+	<div class="share">
+    <a href="#languages"><b>LANGUAGES</b></a>
+    <a href="#elements"><b>HTML ELEMENTS</b></a>
+    <a href="#attributes"><b>LINK ATTRIBUTES</b></a>
+	<a href="#concepts"><b>WEB CONCEPTS</b></a>
+    </div>
+	
+	<div id="languages">
 	<h2>Languages</h2>
-	<p><li>html: stands for hypertext markup language, and is used to give a webpage base.</li>
-	<li>css: stands for cascading style sheets, and is used to customize the style of HTML elements.</li>
+	<p><li><b>HTML</b>: stands for <b>HyperText Markup Language</b>, and is used to give a webpage base.</li>
+	<li><b>CSS</b>: stands for <b>Cascading Style Sheets</b>, and is used to customize the style of HTML elements.</li>
 	</p>
-	<hr>
+	<br>
+	</div>
+	<div id="elements">
+	<br>
 	<h2>HTML Elements</h2>
 	<h3>&lth1-h6></h3>
 	<p> text headings on a webpage. h1 is the largest heading; h6 is the smallest.</p>
@@ -38,18 +51,32 @@
 	<p> used to organise HTML elements into different groups, which can be given a <i>class</i> attribute then customized to look significantly better.</p>
 	<h3>&ltpre></h3>
 	<p>used to preserve its unusual formatting such as large gaps between words or to skip a few lines.</p>
-	<h3>Link attributes</h3>
-	<ul><li>rel- specifies the relationship between the current file and the file being linked to.</li>
-	<li>type- specifies the type of file linked to</li>
-	<li>href- provides the URL of the file being linked to; the link that transfers you to the other file.</li>
-	</ul>
-	<hr>
+	</div>
+	
+	<div id="concepts">
+	<br>
 	<h2>Web Concepts</h2>
 	<h3>parent/child elements</h3>
-	<p>used to describe HTML elements that enclose or are enclosed by other elements. For example, the ul is the parent and the li items are children</p>
+	<p>used to describe HTML elements that enclose or are enclosed by other elements. For example, the &ltul> (unordered list) is the parent and the &ltli> (list items) are children.</p>
+	<h3>&lthtml>...&lt/html></h3>
+	<p>The root of the HTML document and parent of all other HTML elements on the webpage.</p>
+	<h3>&lthead>...&lt/head></h3>
+	<p>Enclose other metadata about the site, such as its title.</p>
+	<h3>&lttitle>...&lt/title></h3>
+	<p>Contains the site's title, which is one way users can find your site through a search engine, like Google.</p>
+
+	<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>  
+
 
 	
-<!--	<menu>
+<!--
+	random fonts list
+Georgia, serif, 'News Cycle', sans-serif, 'Trebuchet MS', 'Helvetica'
+
+	testing stuff
+<menu>
  <li><button onclick="copy()"><img src="copy.svg" alt="Copy"></button></li>
  <li><button onclick="cut()"><img src="cut.svg" alt="Cut"></button></li>
  <li><button onclick="paste()"><img src="paste.svg" alt="Paste"></button></li>
@@ -58,6 +85,5 @@
 
 
 </body>
-
 
 </html>
