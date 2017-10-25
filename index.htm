@@ -19,17 +19,21 @@
 	<div class="share">
     <a href="#languages"><b>LANGUAGES</b></a>
     <a href="#elements"><b>HTML ELEMENTS</b></a>
-    <a href="#attributes"><b>LINK ATTRIBUTES</b></a>
 	<a href="#concepts"><b>WEB CONCEPTS</b></a>
-    </div>
+    <a href="#selectors"><b>CSS SELECTORS</b></a>
+	</div>
 	
 	<div id="languages">
 	<h2>Languages</h2>
 	<p><li><b>HTML</b>: stands for <b>HyperText Markup Language</b>, and is used to give a webpage base.</li>
-	<li><b>CSS</b>: stands for <b>Cascading Style Sheets</b>, and is used to customize the style of HTML elements.</li>
+	<li><b>CSS</b>: stands for <b>Cascading Style Sheets</b>, and is used to customize the style of HTML elements; controls the appearance of content by changing text size, image size, and other attributes.</li>
+	<li><b>JavaScript</b>: Code that adds interactivity and animation to webpages. JavaScript also detects browser events such as mouse clicks, validates user input such as text entries, and retrieves data from external websites.</li>
+	<li><b>Ruby</b>: An open-source programming language best known for use in web programming. For example, you want to make a website that takes credit card payments. Ruby can check to make sure the credit card number appears to be valid.</li>
+	<li><b>Python</b>: An open-source programming language used on the web, in scientific applications, and for data analysis.</li>
 	</p>
 	<br>
 	</div>
+	
 	<div id="elements">
 	<br>
 	<h2>HTML Elements</h2>
@@ -46,11 +50,15 @@
 	<h3>&ltul></h3>
 	<p> used to create lists on your webpage. It requires <i>li</i> elements inside an <u>unordered</u> list.</p>
 	<h3>&ltol></h3>
-	<p>used to created numbered lists on your webpage. It requires <i>li</i> elements inside an <u>ordered</u> list.</p>
+	<p> used to created numbered lists on your webpage. It requires <i>li</i> elements inside an <u>ordered</u> list.</p>
 	<h3>&ltdiv></h3>
 	<p> used to organise HTML elements into different groups, which can be given a <i>class</i> attribute then customized to look significantly better.</p>
 	<h3>&ltpre></h3>
-	<p>used to preserve its unusual formatting such as large gaps between words or to skip a few lines.</p>
+	<p> used to preserve its unusual formatting such as large gaps between words or to skip a few lines.</p>
+	<h3>&ltmarquee></h3>
+	<p> something about marquee</p>
+	<h3>&ltnav></h3>
+	<p> used to organize site navigation menus on a webpage.</p>
 	</div>
 	
 	<div id="concepts">
@@ -59,12 +67,36 @@
 	<h3>parent/child elements</h3>
 	<p>used to describe HTML elements that enclose or are enclosed by other elements. For example, the &ltul> (unordered list) is the parent and the &ltli> (list items) are children.</p>
 	<h3>&lthtml>...&lt/html></h3>
-	<p>The root of the HTML document and parent of all other HTML elements on the webpage.</p>
+	<p>the root of the HTML document and parent of all other HTML elements on the webpage.</p>
 	<h3>&lthead>...&lt/head></h3>
-	<p>Enclose other metadata about the site, such as its title.</p>
+	<p>enclose other metadata about the site, such as its title.</p>
 	<h3>&lttitle>...&lt/title></h3>
-	<p>Contains the site's title, which is one way users can find your site through a search engine, like Google.</p>
-
+	<p>contains the site's title, which is one way users can find your site through a search engine, like Google.</p>
+	<h3>rem</h3>
+	<p>represents the default font size for the web browser.</p>
+	<h3>pixel (px)</h3>
+	<p>standard unit of measurement for sizing fonts and other HTML elements.</p>
+	
+	<div id="selectors"> 
+	<h2>CSS Selectors</h2>
+	<h3>element</h3>
+	<div class="tooltip">example<span class="tooltiptext">p {} selects &ltp>&lt/p></span></div>
+	<h3>class</h3>
+	<p>used to target classes of HTML elements; ideal for times when you need to apply the same style to multiple elements.
+	<div class="tooltip">example<span class="tooltiptext">.red{} selects &ltp class="red">&lt/p></span></div></p>
+	<h3>id</h3>
+	<p>used to style an HTML element which has an id attribute; is how you can uniquely identify an element. Think of an <i>id</i> attribute as being like an element's name.</p>
+	<h3>declaration</h3>
+	<p>are inside the curly braces and follow a selector. Each declaration must end with a semicolon (;).</p>
+	<h3>property</h3>
+	<p>shows what should be modified. It customises the color, width, location of an element. It must be followed by a colon (:).</P>
+	<h3>value</h3>
+	<p>shows how the property should be customised.</p>
+	
+	</div>
+	
+	
+	
 	<div class="tooltip">Hover over me
   <span class="tooltiptext">Tooltip text</span>
 </div>  

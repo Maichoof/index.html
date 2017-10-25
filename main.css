@@ -1,5 +1,6 @@
 html{
 	background-color: #354B72;
+	display: /*block or inline*/
 }
 	
 body {
@@ -15,32 +16,24 @@ body {
 	background-size: cover;
 	font-size:108%;
 	max-width:100%;
-	text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+	text-shadow:#000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
 /* text shadow is the text outline, the value is spammed to a certain degree of darkness to achive that perfect shade */
 }
 
 h1 {
 	font-size: 56px;
+	text-align: center;
 }
 
 h2 {
 	font-size: 32px; 
+	text-decoration: underline;
+	margin: 0px
 }
-
-
-.hero {
-	background-image: url('url');
-	background-position: center top;
-	background-size: cover;
-	padding: 250px 0;
-	margin: 30px;
-	text-shadow: 0 2px #000000;
-	font-family: 'Trebuchet MS', 'Helvetica';
-}
-
 
 p {
 	font-size: 1em;
+	line-height: 80%;
 }
 
 .tooltip {
@@ -102,7 +95,8 @@ p {
 }
 
 #languages {
-
+	text-align: center;
+	
 }
 
 #elements {
